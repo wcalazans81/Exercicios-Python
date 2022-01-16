@@ -11,7 +11,7 @@ mult = n * n1
 div = n / n1
 divint = n // n1
 restodiv = n % n1
-raiz = (n + n1) **(1/2) 
+raiz = (n * n1) **(1/2) 
 print('A soma é {} e a subtração é {} e a multiplicação é {}'.format(soma, subitracao, mult))
 print('A divisão é {:.2f} e a divisão inteira é {} e o resto da divisão é {}'.format(div, divint, restodiv), end=' ')
-print('E a raiz quadrada de {} + {} = {:.2f}'.format(n, n1, raiz))
+print('E a raiz quadrada de {} X {} = {} é {:.2f}'.format(n, n1, mult, raiz))
